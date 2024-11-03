@@ -1,0 +1,684 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 6.8.0-45-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/ismapi/miniconda3/envs/cppdev/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/3.30.4/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/ismapi/miniconda3/envs/cppdev/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/3.30.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-WiiNp0"
+      binary: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-WiiNp0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-WiiNp0'
+        
+        Run Build Command(s): /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47096/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_47096.dir/build.make CMakeFiles/cmTC_47096.dir/build
+        gmake[1]: Entering directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-WiiNp0'
+        Building C object CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o
+        /home/ismapi/miniconda3/envs/cppdev/bin/cc   -v -o CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o -c /home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/ismapi/miniconda3/envs/cppdev/bin/cc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++ --with-pkgversion='conda-forge gcc 14.1.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (conda-forge gcc 14.1.0-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47096.dir/'
+         /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/cc1 -quiet -v -iprefix /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/ -isysroot /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot /home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_47096.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccb2x3db.s
+        GNU C17 (conda-forge gcc 14.1.0-1) version 14.1.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include"
+        ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed"
+        ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include
+         /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed
+         /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: db6126e31235634b76752aee459c5bb6
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47096.dir/'
+         /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o /tmp/ccb2x3db.s
+        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
+        COMPILER_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_47096
+        /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47096.dir/link.txt --verbose=1
+        /home/ismapi/miniconda3/envs/cppdev/bin/cc  -v -Wl,-v CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o -o cmTC_47096
+        Reading specs from /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/ismapi/miniconda3/envs/cppdev/bin/cc
+        COLLECT_LTO_WRAPPER=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++ --with-pkgversion='conda-forge gcc 14.1.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (conda-forge gcc 14.1.0-1) 
+        COMPILER_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47096' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47096.'
+         /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/collect2 -plugin /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so -plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdizMhf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47096 /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0 -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../.. -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/ismapi/miniconda3/envs/cppdev/lib
+        collect2 version 14.1.0
+        /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so -plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdizMhf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47096 /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0 -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../.. -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/ismapi/miniconda3/envs/cppdev/lib
+        GNU ld (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47096' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47096.'
+        gmake[1]: Leaving directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-WiiNp0'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include]
+          add: [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed]
+          add: [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include]
+        collapse include dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed]
+        collapse include dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include;/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-WiiNp0']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47096/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_47096.dir/build.make CMakeFiles/cmTC_47096.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-WiiNp0']
+        ignore line: [Building C object CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/ismapi/miniconda3/envs/cppdev/bin/cc   -v -o CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o -c /home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/ismapi/miniconda3/envs/cppdev/bin/cc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++ --with-pkgversion='conda-forge gcc 14.1.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (conda-forge gcc 14.1.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47096.dir/']
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/cc1 -quiet -v -iprefix /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/ -isysroot /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot /home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_47096.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccb2x3db.s]
+        ignore line: [GNU C17 (conda-forge gcc 14.1.0-1) version 14.1.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include]
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed]
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: db6126e31235634b76752aee459c5bb6]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47096.dir/']
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o /tmp/ccb2x3db.s]
+        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
+        ignore line: [COMPILER_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_47096]
+        ignore line: [/home/ismapi/miniconda3/envs/cppdev/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47096.dir/link.txt --verbose=1]
+        ignore line: [/home/ismapi/miniconda3/envs/cppdev/bin/cc  -v -Wl -v CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o -o cmTC_47096]
+        ignore line: [Reading specs from /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/ismapi/miniconda3/envs/cppdev/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++ --with-pkgversion='conda-forge gcc 14.1.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (conda-forge gcc 14.1.0-1) ]
+        ignore line: [COMPILER_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47096' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47096.']
+        link line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/collect2 -plugin /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so -plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdizMhf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47096 /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0 -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../.. -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/ismapi/miniconda3/envs/cppdev/lib]
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccdizMhf.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_47096] ==> ignore
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../..] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../..]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o]
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/ismapi/miniconda3/envs/cppdev/lib] ==> ignore
+        ignore line: [collect2 version 14.1.0]
+        ignore line: [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so -plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdizMhf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47096 /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0 -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../.. -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_47096.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/ismapi/miniconda3/envs/cppdev/lib]
+        linker tool for 'C': /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o]
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o]
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib] ==> [/home/ismapi/miniconda3/envs/cppdev/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../..] ==> [/home/ismapi/miniconda3/envs/cppdev/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o;/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0;/home/ismapi/miniconda3/envs/cppdev/lib/gcc;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/lib;/home/ismapi/miniconda3/envs/cppdev/lib;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/lib;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-6uLI8l"
+      binary: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-6uLI8l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-6uLI8l'
+        
+        Run Build Command(s): /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ab04c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ab04c.dir/build.make CMakeFiles/cmTC_ab04c.dir/build
+        gmake[1]: Entering directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-6uLI8l'
+        Building CXX object CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o
+        /home/ismapi/miniconda3/envs/cppdev/bin/c++   -v -o CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o -c /home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/ismapi/miniconda3/envs/cppdev/bin/c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++ --with-pkgversion='conda-forge gcc 14.1.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (conda-forge gcc 14.1.0-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab04c.dir/'
+         /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/cc1plus -quiet -v -iprefix /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/ -isysroot /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ab04c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc3VMeLt.s
+        GNU C++17 (conda-forge gcc 14.1.0-1) version 14.1.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++"
+        ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/backward"
+        ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include"
+        ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed"
+        ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++
+         /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu
+         /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/backward
+         /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include
+         /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed
+         /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: 82b3605669a324acb8737e97163dd69a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab04c.dir/'
+         /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3VMeLt.s
+        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
+        COMPILER_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ab04c
+        /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab04c.dir/link.txt --verbose=1
+        /home/ismapi/miniconda3/envs/cppdev/bin/c++  -v -Wl,-v CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ab04c
+        Reading specs from /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/ismapi/miniconda3/envs/cppdev/bin/c++
+        COLLECT_LTO_WRAPPER=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++ --with-pkgversion='conda-forge gcc 14.1.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (conda-forge gcc 14.1.0-1) 
+        COMPILER_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab04c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ab04c.'
+         /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/collect2 -plugin /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so -plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNatOgE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab04c /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0 -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../.. -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/ismapi/miniconda3/envs/cppdev/lib
+        collect2 version 14.1.0
+        /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so -plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNatOgE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab04c /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0 -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../.. -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/ismapi/miniconda3/envs/cppdev/lib
+        GNU ld (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab04c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ab04c.'
+        gmake[1]: Leaving directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-6uLI8l'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++]
+          add: [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu]
+          add: [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/backward]
+          add: [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include]
+          add: [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed]
+          add: [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++]
+        collapse include dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu]
+        collapse include dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/backward] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/backward]
+        collapse include dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include]
+        collapse include dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed]
+        collapse include dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++;/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu;/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/backward;/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include;/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-6uLI8l']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ab04c/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ab04c.dir/build.make CMakeFiles/cmTC_ab04c.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-6uLI8l']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/ismapi/miniconda3/envs/cppdev/bin/c++   -v -o CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o -c /home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/ismapi/miniconda3/envs/cppdev/bin/c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++ --with-pkgversion='conda-forge gcc 14.1.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (conda-forge gcc 14.1.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab04c.dir/']
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/cc1plus -quiet -v -iprefix /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/ -isysroot /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ab04c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc3VMeLt.s]
+        ignore line: [GNU C++17 (conda-forge gcc 14.1.0-1) version 14.1.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++]
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu]
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/backward]
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include]
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/include-fixed]
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 82b3605669a324acb8737e97163dd69a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab04c.dir/']
+        ignore line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3VMeLt.s]
+        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
+        ignore line: [COMPILER_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ab04c]
+        ignore line: [/home/ismapi/miniconda3/envs/cppdev/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab04c.dir/link.txt --verbose=1]
+        ignore line: [/home/ismapi/miniconda3/envs/cppdev/bin/c++  -v -Wl -v CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ab04c]
+        ignore line: [Reading specs from /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/ismapi/miniconda3/envs/cppdev/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798733686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++ --with-pkgversion='conda-forge gcc 14.1.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (conda-forge gcc 14.1.0-1) ]
+        ignore line: [COMPILER_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab04c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ab04c.']
+        link line: [ /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/collect2 -plugin /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so -plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNatOgE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab04c /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0 -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../.. -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/ismapi/miniconda3/envs/cppdev/lib]
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNatOgE.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ab04c] ==> ignore
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../..] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../..]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o]
+          arg [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/ismapi/miniconda3/envs/cppdev/lib] ==> ignore
+        ignore line: [collect2 version 14.1.0]
+        ignore line: [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/liblto_plugin.so -plugin-opt=/home/ismapi/miniconda3/envs/cppdev/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNatOgE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab04c /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0 -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../.. -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -v CMakeFiles/cmTC_ab04c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o /home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/ismapi/miniconda3/envs/cppdev/lib]
+        linker tool for 'CXX': /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o]
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o]
+        collapse obj [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc] ==> [/home/ismapi/miniconda3/envs/cppdev/lib/gcc]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../lib] ==> [/home/ismapi/miniconda3/envs/cppdev/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../..] ==> [/home/ismapi/miniconda3/envs/cppdev/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/ismapi/miniconda3/envs/cppdev/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtbeginS.o;/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0/crtendS.o;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/ismapi/miniconda3/envs/cppdev/lib/gcc/x86_64-conda-linux-gnu/14.1.0;/home/ismapi/miniconda3/envs/cppdev/lib/gcc;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/lib;/home/ismapi/miniconda3/envs/cppdev/lib;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/lib;/home/ismapi/miniconda3/envs/cppdev/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-3kr2HJ"
+      binary: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-3kr2HJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-3kr2HJ'
+        
+        Run Build Command(s): /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_287db/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_287db.dir/build.make CMakeFiles/cmTC_287db.dir/build
+        gmake[1]: Entering directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-3kr2HJ'
+        Building C object CMakeFiles/cmTC_287db.dir/src.c.o
+        /home/ismapi/miniconda3/envs/cppdev/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_287db.dir/src.c.o -c /home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-3kr2HJ/src.c
+        Linking C executable cmTC_287db
+        /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E cmake_link_script CMakeFiles/cmTC_287db.dir/link.txt --verbose=1
+        /home/ismapi/miniconda3/envs/cppdev/bin/cc CMakeFiles/cmTC_287db.dir/src.c.o -o cmTC_287db
+        /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_287db.dir/src.c.o: in function `main':
+        src.c:(.text+0x2f): undefined reference to `pthread_create'
+        /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+        /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+        /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+        /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x6c): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_287db.dir/build.make:99: cmTC_287db] Error 1
+        gmake[1]: Leaving directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-3kr2HJ'
+        gmake: *** [Makefile:127: cmTC_287db/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-UP6G7N"
+      binary: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-UP6G7N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-UP6G7N'
+        
+        Run Build Command(s): /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d451e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d451e.dir/build.make CMakeFiles/cmTC_d451e.dir/build
+        gmake[1]: Entering directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-UP6G7N'
+        Building C object CMakeFiles/cmTC_d451e.dir/CheckFunctionExists.c.o
+        /home/ismapi/miniconda3/envs/cppdev/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_d451e.dir/CheckFunctionExists.c.o -c /home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-UP6G7N/CheckFunctionExists.c
+        Linking C executable cmTC_d451e
+        /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d451e.dir/link.txt --verbose=1
+        /home/ismapi/miniconda3/envs/cppdev/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_d451e.dir/CheckFunctionExists.c.o -o cmTC_d451e  -lpthreads
+        /home/ismapi/miniconda3/envs/cppdev/bin/../lib/gcc/x86_64-conda-linux-gnu/14.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_d451e.dir/build.make:99: cmTC_d451e] Error 1
+        gmake[1]: Leaving directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-UP6G7N'
+        gmake: *** [Makefile:127: cmTC_d451e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/ismapi/miniconda3/envs/cppdev/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-yPTNQJ"
+      binary: "/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-yPTNQJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-yPTNQJ'
+        
+        Run Build Command(s): /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1d66/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e1d66.dir/build.make CMakeFiles/cmTC_e1d66.dir/build
+        gmake[1]: Entering directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-yPTNQJ'
+        Building C object CMakeFiles/cmTC_e1d66.dir/CheckFunctionExists.c.o
+        /home/ismapi/miniconda3/envs/cppdev/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e1d66.dir/CheckFunctionExists.c.o -c /home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-yPTNQJ/CheckFunctionExists.c
+        Linking C executable cmTC_e1d66
+        /home/ismapi/miniconda3/envs/cppdev/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1d66.dir/link.txt --verbose=1
+        /home/ismapi/miniconda3/envs/cppdev/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_e1d66.dir/CheckFunctionExists.c.o -o cmTC_e1d66  -lpthread
+        gmake[1]: Leaving directory '/home/ismapi/Desktop/C++/Lesson15/Hw5_2/build/CMakeFiles/CMakeScratch/TryCompile-yPTNQJ'
+        
+      exitCode: 0
+...

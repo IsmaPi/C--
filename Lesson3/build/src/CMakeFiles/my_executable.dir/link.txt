@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/my_executable.dir/main.cpp.o -o ../bin/my_executable  -Wl,-rpath,/home/ismapi/Desktop/C++/Lesson3/build/lib ../lib/libmy_library.so 

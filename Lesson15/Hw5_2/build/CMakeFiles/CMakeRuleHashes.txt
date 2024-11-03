@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+48f49adecf9ffd84c4cd05ef3a6a0a7d docs/CMakeFiles/Doxygen
+0640fff7a171edd2c9eb6a682d41c2f5 docs/CMakeFiles/Sphinx
+a8dce9e5072934bd80b91df3367c7959 docs/doxygen/xml/index.xml

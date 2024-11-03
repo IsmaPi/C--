@@ -1,0 +1,1 @@
+/home/ismapi/miniconda3/envs/cppdev/bin/c++ CMakeFiles/test_some_library.dir/test_my_library.cpp.o -o ../bin/test_some_library  ../lib/libgtest_main.a -ltransform.h ../lib/libgtest.a -lpthread
